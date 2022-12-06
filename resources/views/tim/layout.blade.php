@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Toko Album Lagu</title>
+        <title>Data Tim F1</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
 
         <nav class="navbar bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="{{ route('pembeli.index') }}">Toko Album Lagu
+              <a class="navbar-brand" href="{{ route('tim.index') }}">Data Tim F1
               </a>
             </div>
         </nav>

@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pembelian extends Model
+class Pembalap extends Model
 {
     use HasFactory;
 
@@ -14,7 +14,7 @@ class Pembelian extends Model
      *
      * @var string
      */
-    protected $table = 'pembelian';
+    protected $table = 'pembalap';
 
     /**
      * The attributes that aren't mass assignable.

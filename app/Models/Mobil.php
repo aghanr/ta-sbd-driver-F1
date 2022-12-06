@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pembeli extends Model
+class Mobil extends Model
 {
     use HasFactory;
 
@@ -14,7 +14,7 @@ class Pembeli extends Model
      *
      * @var string
      */
-    protected $table = 'pembeli';
+    protected $table = 'mobil';
 
     /**
      * The attributes that aren't mass assignable.
@@ -30,5 +30,6 @@ class Pembeli extends Model
      */
     public $timestamps = false;
 }
+
 
 

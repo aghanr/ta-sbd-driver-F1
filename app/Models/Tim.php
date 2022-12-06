@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Album extends Model
+class Tim extends Model
 {
     use HasFactory;
 
@@ -14,7 +14,7 @@ class Album extends Model
      *
      * @var string
      */
-    protected $table = 'album';
+    protected $table = 'tim';
 
     /**
      * The attributes that aren't mass assignable.
@@ -30,6 +30,5 @@ class Album extends Model
      */
     public $timestamps = false;
 }
-
 
 
