@@ -49,6 +49,7 @@ Route::middleware(['auth'])->group(function(){
         Route::post('update/{id}', [MobilController::class, 'update'])->name('mobil.update');
         Route::post('delete/{id}', [MobilController::class, 'delete'])->name('mobil.delete');
         Route::post('softdelete/{id}', [MobilController::class, 'softdelete'])->name('mobil.softdelete');
+        Route::post('restore/{id}', [MobilController::class, 'restore'])->name('mobil.restore');
         Route::post('search', [MobilController::class, 'search'])->name('mobil.search');
     });
 

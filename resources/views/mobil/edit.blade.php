@@ -17,7 +17,7 @@
 <div class="card mt-4">
 	<div class="card-body">
 
-        <h5 class="card-title fw-bolder mb-3">Ubah Data Mobil</h5>
+        <h5 class="card-title fw-bolder mb-3">Edit Data Mobil</h5>
 
 		<form method="post" action="{{ route('mobil.update', $data->id_mobil) }}">
 			@csrf

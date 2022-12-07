@@ -26,7 +26,7 @@
                 <td>{{ $data->id_tim }}</td>
                 <td>{{ $data->nama_tim }}</td>
                 <td>
-                    <a href="{{ route('tim.edit', $data->id_tim) }}" type="button" class="btn btn-warning rounded-3">Ubah</a>
+                    <a href="{{ route('tim.edit', $data->id_tim) }}" type="button" class="btn btn-warning rounded-3">Edit</a>
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#hapusModal{{ $data->id_tim }}">
@@ -58,7 +58,7 @@
 
                     <!-- Soft Delete -->
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#softdeleteModal{{ $data->id_tim }}">
-                        Sembunyikan
+                        Hide
                     </button>
 
                     <!-- Modal -->
@@ -92,7 +92,7 @@
             <td>Otto</td>
             <td>test</td>
             <td>
-                <a href="#" type="button" class="btn btn-warning rounded-3">Ubah</a>
+                <a href="#" type="button" class="btn btn-warning rounded-3">Edit</a>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#hapusModal">
                     Hapus

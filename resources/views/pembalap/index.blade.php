@@ -34,7 +34,7 @@
                 <td>{{ $data->nama_mobil }}</td>
                 <td>{{ $data->nama_tim }}</td>
                 <td>
-                    <a href="{{ route('pembalap.edit', $data->id_pembalap) }}" type="button" class="btn btn-warning rounded-3">Ubah</a>
+                    <a href="{{ route('pembalap.edit', $data->id_pembalap) }}" type="button" class="btn btn-warning rounded-3">Edit</a>
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#hapusModal{{ $data->id_pembalap }}">
@@ -71,7 +71,7 @@
             <td>Otto</td>
             <td>test</td>
             <td>
-                <a href="#" type="button" class="btn btn-warning rounded-3">Ubah</a>
+                <a href="#" type="button" class="btn btn-warning rounded-3">Edit</a>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#hapusModal">
                     Hapus

@@ -17,7 +17,7 @@
 <div class="card mt-4">
 	<div class="card-body">
 
-        <h5 class="card-title fw-bolder mb-3">Ubah Data Pembalap</h5>
+        <h5 class="card-title fw-bolder mb-3">Edit Data Pembalap</h5>
 
 		<form method="post" action="{{ route('pembalap.update', $data->id_pembalap) }}">
 			@csrf

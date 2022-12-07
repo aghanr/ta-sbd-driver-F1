@@ -4,7 +4,7 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
           </ol>
-          <h5 class="font-weight-bolder text-white mb-0">Database Formula 1</h5>
+          <h5 class="font-weight-bolder text-black mb-0">Database Formula 1</h5>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -22,7 +22,7 @@
                                        document.getElementById('logout-form').submit();"
                                        class="nav-link text-white font-weight-bold px-0">
                                        <!-- <i class="fa fa-user me-sm-1"></i> -->
-                                       <span class="font-weight-normal text-white mb-0">Log Out</span>
+                                       <span class="font-weight-normal text-black mb-0">Log Out</span>
                                         
                                     </a>
 
